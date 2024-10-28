@@ -1,4 +1,3 @@
-/* eslint-disable */
-export default function getStudentsIdsSum(students){
-    return students.reduce((sum, { id }) => sum + id, 0);
+export default function getStudentIdsSum(students) {
+  return students.reduce((acc, c) => acc + c.id, 0);
 }
